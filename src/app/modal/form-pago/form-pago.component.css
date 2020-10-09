@@ -1,0 +1,15 @@
+body {
+  margin: 0 auto;
+}
+
+.pagCab {
+  width: auto;
+  height: 30%;
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.pagCorpo {
+  width: auto;
+  height: 50%;
+}

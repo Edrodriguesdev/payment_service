@@ -1,0 +1,20 @@
+<div id="modal">
+  <h1 ngClass='azul'>Pagamento para <span style="color: black;">{{usuarioselecinado.name}}</span></h1>
+   <!-- <form id="formulario"> -->
+      <mat-form-field ngClass="itensformulario">
+        <mat-label>Valor</mat-label>
+        <input type="text" matInput placeholder="R$0,00" [(ngModel)]="q" [ngModelOptions]="{standalone: true}"
+        (keyup)="maskSearch($event)" (keydown)="maskSearchDown($event)" name="first">
+      </mat-form-field>
+      <div>
+        <label for="power" style="font-size: 30px; color: #3F51B5;"></label>
+          <select ngClass="itensselect" id="power" [(ngModel)]="dadoscartao" required>
+            <option *ngFor="let cartao of cards; let i = index" [ngValue]="cartao">Cartão com final {{cartao.card_number.slice(12,16)}}</option>
+          </select>
+      </div>
+      <div id="botao">
+        <button (click)="enviarPosts()" ngClass="botao">Pagar</button>
+      </div>
+   <!-- </form> -->
+
+</div>

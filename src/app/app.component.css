@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+span {
+    font-weight: normal;
+}
+
+.titulo {
+    margin-left: 10%;
+}
+
+.imagem {
+    width: 90%;
+    border-radius: 80%;
+    float: left;
+    margin: 1%;
+}
+
+.tamanho {
+    width: 90%;
+    margin-top: 2%;
+    margin: 2%;
+}
+
+.letraBranca {
+    color: #FFF;
+}
+
+.fundoAzul {
+    display: flex;
+    background-color: #2F314C;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    margin-bottom: 1px;
+}
+
+.botao {
+    font-size: 20px;
+    display: inline;
+    position: relative;
+}
+
+#botaopagar {
+display: flex;
+align-items: center;
+}

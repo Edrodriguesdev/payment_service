@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+}
+
+#formulario {
+  padding: 0%;
+}
+
+.itensformulario {
+  width: 100%;
+  font-size: 30px;
+}
+
+.itensselect {
+  font-size: 30px;
+  width: 100%;
+  text-align: center; /* para firefox */
+  text-align-last: center; /* para chrome */
+  border-color: #3F51B5;
+  border: none;
+}
+
+
+.azul {
+  background-color: #2F314C;
+  padding: 2%;
+  color: #fff;
+}
+
+.botao {
+margin-top: 3%;
+margin-left: 40%;
+font-size: 30px;
+display: flex;
+align-items: center;
+}
